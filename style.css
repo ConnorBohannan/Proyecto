@@ -1,0 +1,25 @@
+* {
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+header {
+    text-align: center;
+    border: 2px solid cornflowerblue 
+}
+
+form {
+    border: 2px solid orange
+}
+
+#output {
+    border: 2px solid green;
+    height: 20vh;
+}
+
+main {
+    height: 20vh;
+    border: 2px solid purple;
+}
