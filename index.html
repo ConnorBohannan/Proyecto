@@ -12,11 +12,11 @@
         <h1>Get that movie.</h1>
     </header>
     <main>
-        <form>
+        <form id="movieSearch">
             <fieldset>
             <legend>Get that movie</legend>
             <label for="Title">Title</label>
-            <input type="text" id="Title" required>
+            <input type="text" id="Title" name="Title" required>
             <label for="Year">Year</label>
             <input type="text" id="Year">
             <label for="Plot">Plot</label>
@@ -25,11 +25,19 @@
                 <option>Short</option>
                 <option>Long</option>
             </select>
-            <input type="submit">
+            <input type="submit" id="submit">
         </fieldset>
         </form>
-        <div id="output">
-            
+        <div id="movieResults">
+            <h3 id="Name"></h3>
+            <h3 id="Released"></h3>
+            <!-- <img src="" alt="movie poster" id="Poster"> -->
+            <h3 id="Runtime"></h3>
+            <h3 id="Director"></h3>
+            <h3 id="Writer"></h3>
+            <h3 id="Actors"></h3>
+            <h3 id="moviePlot"></h3>
+            <h3 id="rottenTomatoes"></h3>
         </div>
     </main>
    

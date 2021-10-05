@@ -16,10 +16,10 @@ form {
 
 #output {
     border: 2px solid green;
-    height: 20vh;
+    height: 50vh;
 }
 
 main {
-    height: 20vh;
+    height: 80vh;
     border: 2px solid purple;
 }
