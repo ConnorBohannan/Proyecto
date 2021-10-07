@@ -9,39 +9,46 @@
 </head>
 <body>
     <header id="header">
-        <h1>Get that movie.</h1>
+        <h1>Get those movie deets 🎥</h1>
+        <h2>👇👇</h2>
+        <p>Type in the title of your movie and the year it was released.</p>
     </header>
     <main>
         <form id="movieSearch">
+            <p id="error"></p>
             <fieldset>
             <legend>Get that movie</legend>
-            <label for="Title">Title</label>
-            <input type="text" id="Title" name="Title" required>
-            <label for="Year">Year</label>
-            <input type="text" id="Year">
-            <label for="Plot">Plot</label>
-            <select id="Plot">
+                <label for="Title">Title</label>
+                <input type="text" id="Title" name="Title" required>
+                <label for="Year">Year</label>
+                <input type="text" id="Year" name="Year">
+                <label for="Plot">Plot</label>
+                <select id="Plot" name="Plot">
                 <option>Select One</option>
                 <option>Short</option>
-                <option>Long</option>
+                <option>Full</option>
             </select>
             <input type="submit" id="submit">
         </fieldset>
         </form>
         <div id="movieResults">
+            <div id="imageBox">
+                <img id="Poster">
+            </div>
+            <div id="textBox">
             <h3 id="Name"></h3>
             <h3 id="Released"></h3>
-            <!-- <img src="" alt="movie poster" id="Poster"> -->
             <h3 id="Runtime"></h3>
             <h3 id="Director"></h3>
             <h3 id="Writer"></h3>
             <h3 id="Actors"></h3>
             <h3 id="moviePlot"></h3>
             <h3 id="rottenTomatoes"></h3>
+            </div>
         </div>
     </main>
-   
-    <footer></footer>
+    <footer>
+    </footer>
     <script src="./app.js"></script>
 </body>
 </html>

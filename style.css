@@ -1,25 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
     font-family: 'Lora', serif;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
 header {
     text-align: center;
-    border: 2px solid cornflowerblue 
-}
-
-form {
-    border: 2px solid orange
-}
-
-#output {
-    border: 2px solid green;
-    height: 50vh;
 }
 
 main {
     height: 80vh;
-    border: 2px solid purple;
+}
+
+body {
+    text-align: center;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+@media (max-width: 750px) {
+    #Title{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #Year{
+        margin-bottom: 10px;
+        display: block;
+    }
+    #Plot{
+        display: block;
+        margin-bottom: 10px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    #submit {
+        margin-top: 5px;
+    }
+}
+
+
+
+#movieSearch {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+#movieResults {
+    margin-top: 50px;
+    display: flex;
+}
+
+#imageBox {
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#textBox {
+    flex-basis: 50%;
+    text-align: left;
+    padding-right: 200px;
+}
+
+#Title {
+    margin-right: 10px;
+}
+
+#Year {
+    margin-right: 10px;
+}
+
+#Plot {
+    margin-right: 10px;
 }
